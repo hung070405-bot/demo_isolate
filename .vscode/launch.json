@@ -1,0 +1,7 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {"name": "Isolate Demo", "request": "launch", "type": "dart", "program": "lib/main.dart"},
+    {"name": "Isolate Demo (profile)", "request": "launch", "type": "dart", "program": "lib/main.dart", "flutterMode": "profile"}
+  ]
+}

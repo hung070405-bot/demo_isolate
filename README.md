@@ -42,6 +42,10 @@ Nếu máy ảo chưa bật: mở Device Manager của Android Studio và khởi
 Không chọn Chrome/Edge: trên Flutter Web, compute không tạo isolate riêng.
 Ứng dụng có thông báo riêng khi phát hiện đang chạy Web.
 
+### Cấu hình biến môi trường (`.env`) và `google-services.json`
+- Dự án sử dụng thư viện chuẩn của Flutter SDK (`flutter/foundation.dart` với hàm `compute`) để minh họa xử lý đa luồng/Isolate cục bộ trên CPU, **không phụ thuộc dịch vụ đám mây hay khóa API ẩn**, nên người chấm có thể chạy trực tiếp mà không cần cấu hình `.env` hoặc `google-services.json`.
+- Trong trường hợp mở rộng kết nối Firebase/API: đặt biến môi trường trong `.env` tại thư mục gốc và đặt `google-services.json` tại `android/app/google-services.json`.
+
 ## 2. Kịch bản demo khoảng 2–3 phút
 
 1. Mở app, chỉ vào biểu tượng xoay và vòng CircularProgressIndicator.

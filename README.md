@@ -3,6 +3,13 @@
 Ứng dụng Flutter minh họa nghẽn giao diện khi tính toán trên Main Isolate,
 và cách dùng compute để chuyển cùng phép tính sang isolate riêng.
 
+## Phân công thực hiện
+
+| Thành viên | Tài khoản GitHub | Nội dung phụ trách | Đóng góp |
+| :--- | :--- | :--- | :---: |
+| **Lê Nguyễn Trường Giang** | [@11legiang](https://github.com/11legiang) | Cơ sở lý thuyết về Concurrency, Event Loop, Main Isolate, UI jank/freeze và xây dựng thuật toán kiểm thử (`prime_worker.dart`). | 50% |
+| **Võ Huy Hùng** | [@hung070405-bot](https://github.com/hung070405-bot) | Triển khai `compute()`, giao diện so sánh trực quan, đo đạc thời gian thực thi và xử lý bất đồng bộ (`main.dart`). | 50% |
+
 ## 1. Chạy trên VS Code / Windows
 
 Yêu cầu: đã cài Flutter SDK, extension Flutter/Dart trong VS Code.
